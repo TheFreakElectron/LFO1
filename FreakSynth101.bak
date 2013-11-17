@@ -1,0 +1,490 @@
+EESchema Schematic File Version 2  date Sun 29 Sep 2013 23:07:17 BST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FreakAnalogue
+LIBS:+15v
+LIBS:-15v
+LIBS:gnd
+LIBS:FreakSynth101-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "29 sep 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2800 3000 0    120  ~ 0
+LFO\n
+Connection ~ 950  1175
+Wire Wire Line
+	600  1425 600  1175
+Wire Wire Line
+	600  1175 950  1175
+Wire Wire Line
+	1200 1525 1200 1725
+Wire Wire Line
+	1200 925  1200 650 
+Wire Wire Line
+	6125 1025 6125 1700
+Wire Wire Line
+	6125 1025 1700 1025
+Wire Wire Line
+	1700 1025 1700 1750
+Connection ~ 1475 2925
+Wire Wire Line
+	1475 3000 1475 2925
+Wire Wire Line
+	1275 2575 1275 2450
+Wire Wire Line
+	1275 2450 1700 2450
+Connection ~ 4525 1750
+Wire Wire Line
+	4250 1750 4650 1750
+Wire Wire Line
+	5250 2125 5375 2125
+Wire Wire Line
+	5775 2125 5850 2125
+Connection ~ 4254 1750
+Wire Wire Line
+	5050 2600 5125 2600
+Wire Wire Line
+	5125 2600 5125 3050
+Wire Wire Line
+	4450 2600 4350 2600
+Wire Wire Line
+	3000 1650 3100 1650
+Wire Wire Line
+	2400 2350 2400 2450
+Connection ~ 6125 1200
+Wire Wire Line
+	6125 1200 5850 1200
+Wire Wire Line
+	2000 2050 2100 2050
+Wire Wire Line
+	5375 1800 5325 1800
+Wire Wire Line
+	5325 1800 5325 1975
+Wire Wire Line
+	5375 1600 5150 1600
+Wire Wire Line
+	5150 1600 5150 1200
+Wire Wire Line
+	5050 1200 5250 1200
+Wire Wire Line
+	3400 2450 3525 2450
+Wire Wire Line
+	3525 2450 3525 1200
+Connection ~ 3525 1650
+Wire Wire Line
+	3525 1200 3700 1200
+Wire Wire Line
+	3400 1650 3650 1650
+Wire Wire Line
+	4450 1200 4100 1200
+Connection ~ 4350 1200
+Connection ~ 5150 1200
+Wire Wire Line
+	3625 2025 3625 1850
+Wire Wire Line
+	3625 1850 3650 1850
+Wire Wire Line
+	1700 2550 1700 2350
+Connection ~ 1700 2450
+Wire Wire Line
+	6125 1700 5975 1700
+Wire Wire Line
+	2400 1750 2400 1650
+Wire Wire Line
+	3000 2450 3100 2450
+Wire Wire Line
+	4350 1200 4350 1875
+Connection ~ 4350 1750
+Wire Wire Line
+	4450 2950 4350 2950
+Wire Wire Line
+	4350 2950 4350 2475
+Connection ~ 4350 2600
+Wire Wire Line
+	4450 3150 4350 3150
+Wire Wire Line
+	4350 3150 4350 3325
+Wire Wire Line
+	6450 2125 6525 2125
+Wire Wire Line
+	6525 2125 6525 2250
+Wire Wire Line
+	4600 2375 4600 2225
+Wire Wire Line
+	4600 2225 4650 2225
+Wire Wire Line
+	4525 1750 4525 2025
+Wire Wire Line
+	4525 2025 4650 2025
+Wire Wire Line
+	5050 3050 5250 3050
+Connection ~ 5125 3050
+Wire Wire Line
+	1275 2875 1275 2925
+Wire Wire Line
+	1275 2925 1700 2925
+Wire Wire Line
+	1700 2925 1700 2850
+Wire Wire Line
+	950  1225 950  1150
+Wire Wire Line
+	950  750  950  725 
+Wire Wire Line
+	950  725  1200 725 
+Connection ~ 1200 725 
+Wire Wire Line
+	950  1625 950  1675
+Wire Wire Line
+	950  1675 1200 1675
+Connection ~ 1200 1675
+$Comp
+L GND #PWR?
+U 1 1 5248A2A6
+P 600 1425
+F 0 "#PWR?" H 550 1325 30  0001 C CNN
+F 1 "GND" H 600 1355 30  0001 C CNN
+	1    600  1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C?
+U 1 1 5248A205
+P 950 1425
+F 0 "C?" H 1000 1525 50  0000 L CNN
+F 1 "100nF" H 1000 1325 50  0000 L CNN
+	1    950  1425
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 5248A1E6
+P 950 950
+F 0 "C?" H 1000 1050 50  0000 L CNN
+F 1 "100nF" H 1000 850 50  0000 L CNN
+	1    950  950 
+	-1   0    0    1   
+$EndComp
+Text Notes 4500 825  0    60   ~ 0
+R1 \nAMPLITUDE\n
+Text Notes 2925 750  0    60   ~ 0
+C1\n470nF = 0.307Hz > 23.3Hz\n680nF = 0.214Hz > 16.5Hz
+Text Notes 4650 1550 0    60   ~ 0
+TRI/SAW\nOUTPUT\n
+$Comp
+L CONN_1 P?
+U 1 1 52486F42
+P 4800 1750
+F 0 "P?" H 4880 1750 40  0000 L CNN
+F 1 "CONN_1" H 4800 1805 30  0001 C CNN
+	1    4800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 52486F24
+P 5400 3050
+F 0 "P?" H 5480 3050 40  0000 L CNN
+F 1 "CONN_1" H 5400 3105 30  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 3200 0    60   ~ 0
+TRI/SAW\nINVERTED\nOUTPUT
+Text Notes 5350 2375 0    60   ~ 0
+FREQ \nINDICATOR
+$Comp
+L GND #PWR?
+U 1 1 52486C41
+P 6525 2250
+F 0 "#PWR?" H 6475 2150 30  0001 C CNN
+F 1 "GND" H 6525 2180 30  0001 C CNN
+	1    6525 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R?
+U 1 1 52486C35
+P 6150 2125
+F 0 "R?" H 6150 2025 50  0000 C CNN
+F 1 "1k" H 6145 2225 50  0000 C CNN
+	1    6150 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 52486BFE
+P 5575 2125
+F 0 "D?" H 5575 2225 50  0000 C CNN
+F 1 "LED" H 5575 2025 50  0000 C CNN
+	1    5575 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52486BBB
+P 4600 2375
+F 0 "#PWR?" H 4550 2275 30  0001 C CNN
+F 1 "GND" H 4600 2305 30  0001 C CNN
+	1    4600 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5248685B
+P 4350 3325
+F 0 "#PWR?" H 4300 3225 30  0001 C CNN
+F 1 "GND" H 4350 3255 30  0001 C CNN
+	1    4350 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R?
+U 1 1 524867EB
+P 4750 2600
+F 0 "R?" H 4750 2500 50  0000 C CNN
+F 1 "10k" H 4745 2700 50  0000 C CNN
+	1    4750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES 10k
+U 1 1 524867B5
+P 4350 2175
+F 0 "10k" H 4350 2075 50  0000 C CNN
+F 1 "RES" H 4345 2275 50  0000 C CNN
+	1    4350 2175
+	0    1    1    0   
+$EndComp
+Text Notes 2500 2075 0    60   ~ 0
+SHAPE\n
+$Comp
+L RES 4k7
+U 1 1 52484E79
+P 2700 2450
+F 0 "4k7" H 2700 2350 50  0000 C CNN
+F 1 "RES" H 2695 2550 50  0000 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES 4k7
+U 1 1 52484E6F
+P 2700 1650
+F 0 "4k7" H 2700 1550 50  0000 C CNN
+F 1 "RES" H 2695 1750 50  0000 C CNN
+	1    2700 1650
+	1    0    0    -1  
+$EndComp
+Text Notes 1375 2075 0    60   ~ 0
+FREQ\n
+$Comp
+L GND #PWR?
+U 1 1 524847A3
+P 1475 3000
+F 0 "#PWR?" H 1425 2900 30  0001 C CNN
+F 1 "GND" H 1475 2930 30  0001 C CNN
+	1    1475 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5248426B
+P 5325 1975
+F 0 "#PWR?" H 5275 1875 30  0001 C CNN
+F 1 "GND" H 5325 1905 30  0001 C CNN
+	1    5325 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52484251
+P 3625 2025
+F 0 "#PWR?" H 3575 1925 30  0001 C CNN
+F 1 "GND" H 3625 1955 30  0001 C CNN
+	1    3625 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L -15V #PWR?
+U 1 1 52484061
+P 1200 1725
+F 0 "#PWR?" H 1100 1715 20  0001 C CNN
+F 1 "-15V" H 1200 1585 30  0000 C CNN
+	1    1200 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L +15V #PWR?
+U 1 1 52483E24
+P 1200 650
+F 0 "#PWR?" H 1200 620 30  0001 C CNN
+F 1 "+15V" H 1200 760 40  0000 C CNN
+	1    1200 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4XOPAMP U1
+U 2 1 5246FECE
+P 5575 1700
+F 0 "U1" H 5725 1850 60  0000 C CNN
+F 1 "4XOPAMP" H 5825 1550 50  0000 C CNN
+	2    5575 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C1
+U 1 1 52470B2C
+P 3900 1200
+F 0 "C1" H 3950 1300 50  0000 L CNN
+F 1 "470nF" H 3950 1100 50  0000 L CNN
+	1    3900 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L POTENTIOMETER P2
+U 1 1 5247088E
+P 1700 2050
+F 0 "P2" H 1850 2200 50  0000 C CNN
+F 1 "100k" H 1520 2200 50  0000 C CNN
+	1    1700 2050
+	0    1    -1   0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 524702D7
+P 5550 1200
+F 0 "R?" H 5550 1100 50  0000 C CNN
+F 1 "10k" H 5545 1300 50  0000 C CNN
+	1    5550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R1
+U 1 1 524702C6
+P 4750 1200
+F 0 "R1" H 4750 1100 50  0000 C CNN
+F 1 "3k9" H 4745 1300 50  0000 C CNN
+	1    4750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIGNAL_DIODE R?
+U 1 1 524701E8
+P 1275 2725
+F 0 "R?" H 1275 2575 50  0000 C CNN
+F 1 "1N4148" H 1270 2875 50  0000 C CNN
+	1    1275 2725
+	0    1    -1   0   
+$EndComp
+$Comp
+L SIGNAL_DIODE R?
+U 1 1 524701E4
+P 1700 2700
+F 0 "R?" H 1700 2550 50  0000 C CNN
+F 1 "1N4148" H 1695 2850 50  0000 C CNN
+	1    1700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L POTENTIOMETER P1
+U 1 1 524700BF
+P 2400 2050
+F 0 "P1" H 2550 2200 50  0000 C CNN
+F 1 "100k" H 2220 2200 50  0000 C CNN
+	1    2400 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SIGNAL_DIODE R?
+U 1 1 5246FFAB
+P 3250 2450
+F 0 "R?" H 3250 2300 50  0000 C CNN
+F 1 "1N4148" H 3245 2600 50  0000 C CNN
+	1    3250 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SIGNAL_DIODE R?
+U 1 1 5246FF9A
+P 3250 1650
+F 0 "R?" H 3250 1500 50  0000 C CNN
+F 1 "1N4148" H 3245 1800 50  0000 C CNN
+	1    3250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4XOPAMP U1
+U 4 1 5246FF45
+P 4850 2125
+F 0 "U1" H 5000 2275 60  0000 C CNN
+F 1 "4XOPAMP" H 5100 1975 50  0000 C CNN
+	4    4850 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4XOPAMP U1
+U 5 1 5246FF13
+P 1200 1225
+F 0 "U1" H 1350 1375 60  0000 C CNN
+F 1 "4XOPAMP" H 1450 1075 50  0000 C CNN
+	5    1200 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4XOPAMP U1
+U 3 1 5246FEFD
+P 4650 3050
+F 0 "U1" H 4800 3200 60  0000 C CNN
+F 1 "4XOPAMP" H 4900 2900 50  0000 C CNN
+	3    4650 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L 4XOPAMP U1
+U 1 1 5246FEC8
+P 3850 1750
+F 0 "U1" H 4000 1900 60  0000 C CNN
+F 1 "4XOPAMP" H 4100 1600 50  0000 C CNN
+	1    3850 1750
+	1    0    0    1   
+$EndComp
+$EndSCHEMATC
