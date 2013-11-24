@@ -1,0 +1,25 @@
+eeschema (2011-05-25)-stable  >> Creation date: Wed 20 Nov 2013 17:13:31 GMT
+
+#Cmp ( order = Reference )
+| C1         470nF       ; Polystyrene 
+| C2         100nF       ; Ceramic     
+| C3         100nF       ; Ceramic     
+| D1         1N4148      ; Signal Diode
+| D2         1N4148      ; Signal Diode
+| D3         1N4148      ; Signal Diode
+| D4         1N4148      ; Signal Diode
+| D5         LED         
+| P1         100k        
+| P2         100k        
+| P?         CONN_1      
+| R1         4k7         ; Metal Film  ; 1%          
+| R2         4k7         ; Metal Film  ; 1%          
+| R3         3k9         ; Metal Film  ; 1%          
+| R4         10k         ; Metal Film  ; 1%          
+| R5         10k         ; Metal Film  ; 1%          
+| R6         10k         ; Metal Film  ; 1%          
+| R7         1k          ; Metal Film  ; 1%          
+| U1         4XOPAMP     
+#End Cmp
+
+#End List
